@@ -1,6 +1,6 @@
 # demo-report
 
-A tiny reporting tool used to exercise The Chronicler.
+A tiny reporting tool used to exercise docxy.
 
 ```bash
 npx demo-report --output json
