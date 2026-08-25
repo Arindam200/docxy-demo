@@ -3,7 +3,7 @@
 Install the package, then run the report:
 
 ```bash
-npx demo-report --output json
+npx demo-report --output json --limit 10
 ```
 
 ## Next steps
