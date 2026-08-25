@@ -5,6 +5,7 @@ export function formatReport(rows, options = {}) {
     descending = false,
     includeHeader = false,
     includeSummary = false,
+    limit = 0,
   } = options;
 
   if (!Array.isArray(rows)) {
@@ -18,6 +19,10 @@ export function formatReport(rows, options = {}) {
     if (left === right) return 0;
     return (left > right ? 1 : -1) * (descending ? -1 : 1);
   });
+
+  if (limit > 0 && data.length > limit) {
+    data.length = limit;
+  }
 
   if (format === 'json') {
     const result = {
