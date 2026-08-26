@@ -10,5 +10,6 @@ Pass `--output json` to get machine-readable output. The default is
 | Flag | Default | Description |
 | --- | --- | --- |
 | `--output` | `table` | Output format: `table` or `json` |
+| `--limit` | `0` | Cap the number of rows in the output. `0` means no limit |
 
 See the [getting started guide](./guide.md) for a full walkthrough.
