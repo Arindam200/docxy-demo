@@ -4,11 +4,11 @@ The `report` command prints a summary of the current dataset.
 
 ## Configuration
 
-Pass `--output json` to get machine-readable output. The default is
-`--output table`, which prints an aligned text table.
+Pass `--format json` to get machine-readable output. The default is
+`--format table`, which prints an aligned text table.
 
 | Flag | Default | Description |
 | --- | --- | --- |
-| `--output` | `table` | Output format: `table` or `json` |
+| `--format` | `table` | Output format: `table`, `json`, or `csv` |
 
 See the [getting started guide](./guide.md) for a full walkthrough.
