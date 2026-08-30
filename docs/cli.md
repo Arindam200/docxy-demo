@@ -11,5 +11,6 @@ for comma-separated output.
 | Flag | Default | Description |
 | --- | --- | --- |
 | `--format` | `table` | Output format: `table`, `json`, or `csv` |
+| `--limit` | `0` | Cap the number of rows in the output. `0` means no limit |
 
 See the [getting started guide](./guide.md) for a full walkthrough.
