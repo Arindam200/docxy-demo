@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added a `limit` option to `formatReport` to cap the number of rows in the output
+
 ### Changed
 
 - Renamed the `--output` flag to `--format`; `--output` now errors with a message directing to `--format`. The `formatReport` options key changed from `output` to `format`. Added `csv` as a new output format alongside `table` and `json`.
