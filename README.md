@@ -1,9 +1,9 @@
 # demo-report
 
-A tiny reporting tool used to exercise docxy.
+A tiny reporting tool used to exercise Docxy.
 
 ```bash
-npx demo-report --output json
+npx demo-report --format json
 ```
 
 See [docs/cli.md](./docs/cli.md).
